@@ -1,3 +1,43 @@
-body{
+body {
     font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+    font-weight: 550;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 15px;
+    transition: color 0.7s;
+}
+
+header nav {
+    padding-left: 570px;
+}
+
+.menu-button {
+    background-color: #ff8911;
+    color: #ffffff;
+    border: 2px solid #ff8911;
+    border-radius: 45px;
+    padding: 20px 58px;
+    transition: 0.7s;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.menu-button:hover {
+    background-color: #ffffff;
+    color: #ff8911;
+}
+
+.menu-link:hover {
+    color: #ff8911;
 }
