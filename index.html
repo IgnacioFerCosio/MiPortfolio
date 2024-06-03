@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Soy Ignacio Fernandez</title>
@@ -24,12 +25,14 @@
     <!-- Fin del header -->
     <main>
         <!-- Inicio del Hero -->
-        <section>
+        <section class="hero">
             <img src="images/perfil.jpg" alt="">
             <h1>Hola, soy Ignacio Fernandez</h1>
-            <p>Soy un ingeniero en sistemas muy apasionado y dedicado, con gran variedad de ideas creativas</p>
-            <button>Mis Trabajos</button>
-            <button>Contáctame</button>
+            <p>Soy un ingeniero en sistemas muy apasionado y dedicado <br> con gran variedad de ideas creativas</p>
+            <div class="hero-buttons">
+                <a href="#proyectos" class="misTrabajos-button">Mis Trabajos</a>
+                <a href="#contacto" class="contactame-button"> <i class="bi bi-send"></i> Contáctame</a>
+            </div>
         </section>
         <!-- Fin del Hero -->
 
@@ -160,7 +163,7 @@
         <!-- Fin de Habilidades -->
 
         <!-- Inicio de Contacto -->
-        <section>
+        <section id="contacto">
             <h4>CONTACTO</h4>
             <H1>Tienes alguna consulta?</H1>
             <form>
