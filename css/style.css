@@ -265,3 +265,47 @@ header nav {
     line-height: 24px;
 }
 /* Fin Sobe mi */
+
+/* Inicio proyectos */
+
+.proyectos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+.proyectos img{
+    border-radius: 35px;
+}
+
+.proyectos-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+.proyectos h4{
+    font-size: 20px;
+    color: #ff8911;
+    margin-bottom: 8px;
+}
+
+.proyectos h1{
+    font-size: 38px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.proyectos h5{
+    margin-top: 12px;
+    margin-bottom: 0px;
+    font-size: 22px;
+}
+
+.proyectos p{
+    margin-top: 6px;
+}
+/* Fin proyectos*/
