@@ -15,6 +15,7 @@ header {
     padding: 8px;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 
@@ -176,7 +177,11 @@ header nav {
 .tarjeta-imagen{
     position: absolute;
     translate: 0px -95%;
-    transition: fill 0.3s ease, stroke 0.3s ease;
+    transition: 0.7s;
+}
+
+.invisble{
+    opacity: 1;
 }
 
 .mundo{
@@ -204,6 +209,9 @@ header nav {
 .tarjetas:hover .imagen-fondo1{
     opacity: 0;
 }
+.tarjetas:hover .invisible{
+    opacity: 0;
+}
 
 /* .tarjetas:hover .tarjeta-imagen{
     fill: #ffffff;
@@ -218,6 +226,10 @@ header nav {
     align-items: center;
     justify-content: center;
     padding: 100px 0px;
+    background-image: url(../images/fondoSenoidal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .sobremi img{
@@ -309,3 +321,59 @@ header nav {
     margin-top: 6px;
 }
 /* Fin proyectos*/
+
+/* Inicio Experiencia y Educacion*/
+.eduexp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eduexp-container{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.centrado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-fechas{
+    border-radius: 10px;
+    height: 220px;
+    width: 680px;
+    margin-bottom: 25px;
+}
+.educacion{
+    background-color: #ffecce;
+}
+
+.experiencia{
+    background-color: #e3e2ff;
+}
+
+.eduexp h4{
+    font-size: 20px;
+}
+
+.naranja{
+    color: #ff8911; 
+}
+
+.violeta{
+    color: #5c5bdb;
+}
+
+.eduexp hr{
+    border: 1.9px solid ;
+    position: absolute;
+    height: 75%;
+    translate: -25px 20px;
+}
+
+/* Fin Experiencia y Educacion*/
