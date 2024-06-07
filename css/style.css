@@ -12,10 +12,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8px;
+    padding: 0.5%;
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 1000;
 }
 
 
@@ -126,24 +126,24 @@ header nav {
 /* fin hero */
 
 /* inicio servicios */
+h4{
+    font-size: 20px;
+    color: #ff8911;
+    margin-bottom: 8px;
+}
+
+h1{
+    font-size: 38px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
 .servicios{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 90px;
-}
-.servicios h4{
-    font-size: 20px;
-    text-align: center;
-    color: #ff8911;
-    padding-top: 100px;
-    margin-bottom: 10px;
-}
-
-.servicios h1{
-    margin-top: 0px;
-    font-size: 38px;
+    margin: 7% 0;
 }
 
 .tarjetas{
@@ -194,7 +194,7 @@ header nav {
     margin-bottom: 0;
 }
 .container-tarjetas{
-    padding: 30px 0px;
+    padding-top: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -213,10 +213,6 @@ header nav {
     opacity: 0;
 }
 
-/* .tarjetas:hover .tarjeta-imagen{
-    fill: #ffffff;
-} */
-
 /* fin servicios */
 
 /* Inicio Sobre mi */
@@ -225,23 +221,18 @@ header nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px 0px;
+    padding-top: 3%;
+    padding-bottom: 1%;
     background-image: url(../images/fondoSenoidal.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.sobremi img{
-    width: 450px;
-    height: 450px;
-    border-radius: 300px;
-    border: 8px solid #5c5bdb;
-}
 
 .sobre-container{
     width: 35%;
-    padding-left: 8%;
+    padding-left: 7%;
     text-align: justify; 
 }
 
@@ -262,11 +253,7 @@ header nav {
     color: #ff8911;
 }
 
-.sobremi h4{
-    font-size: 20px;
-    color: #ff8911;
-    margin-bottom: 10px;
-}
+
 
 .sobremi h1{
     font-size: 36px;
@@ -274,7 +261,8 @@ header nav {
 }
 
 .sobremi p{
-    line-height: 24px;
+    line-height: 28px;
+    font-size: 20px;
 }
 /* Fin Sobe mi */
 
@@ -285,8 +273,7 @@ header nav {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 80px;
-    margin-bottom: 120px;
+    margin: 5% 0;
 }
 .proyectos img{
     border-radius: 35px;
@@ -297,18 +284,6 @@ header nav {
     justify-content: space-around;
     align-items: center;
     width: 80%;
-}
-
-.proyectos h4{
-    font-size: 20px;
-    color: #ff8911;
-    margin-bottom: 8px;
-}
-
-.proyectos h1{
-    font-size: 38px;
-    margin-top: 0;
-    margin-bottom: 40px;
 }
 
 .proyectos h5{
@@ -334,7 +309,7 @@ header nav {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    margin: 30px;
+    padding: 30px;
 }
 
 .centrado{
@@ -345,7 +320,7 @@ header nav {
 
 .div-fechas{
     border-radius: 10px;
-    height: 220px;
+    height: 215px;
     width: 680px;
     margin-bottom: 25px;
 }
@@ -359,6 +334,8 @@ header nav {
 
 .eduexp h4{
     font-size: 20px;
+    translate: -30px;
+    padding-bottom: 30px;
 }
 
 .naranja{
@@ -369,13 +346,32 @@ header nav {
     color: #5c5bdb;
 }
 
-.eduexp hr{
-    border: 1.9px solid ;
+.vertical-line {
     position: absolute;
-    height: 75%;
-    translate: -25px 20px;
+    translate: -25px 90px;
+    width: 3px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.circle {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 220px; 
+    flex-shrink: 0;
+}
+
+.background-naranja{
+    background-color: #ff8911
+}
+
+.background-violeta{
+    background-color:#5c5bdb
+}
 /* Fin Experiencia y Educacion*/
 
 /*Inicio Skills*/
@@ -413,7 +409,7 @@ header nav {
     border-radius: 150px;
 }
 
-.habilidades h4{
+/* .habilidades h4{
     font-size: 20px;
     color: #ff8911;
     margin-bottom: 8px;
@@ -423,7 +419,110 @@ header nav {
     font-size: 38px;
     margin-top: 0;
     margin-bottom: 40px;
-}
+} */
 
 
 /*Fin Skills*/
+
+/* Inicio Contacto */
+
+.contacto{
+    margin: 5% 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 52%;
+    height: 450px;
+}
+
+.input-chico{
+    width: 48.5%; 
+}
+textarea{
+    width: 100%;
+    height: 60%;
+    resize: none;
+}
+.formulario input, textarea{
+    border: none;
+    background-color: #efeffb;
+    border-radius: 10px;
+}
+input::placeholder, textarea::placeholder{
+    color: #a7a8a8;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 18px;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+    color: #a7a8a8;
+    font-size: 18px;
+}
+
+.formulario div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 16%;
+}
+
+.formulario a{
+    background-color: #ff8911;
+    color: #ffffff;
+    border: 2px solid #ff8911;
+    border-radius: 6px;
+    text-align: center;
+    transition: 0.7s;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.formulario a:hover{
+    background-color: transparent;
+    color: #ff8911;
+}
+
+
+/* Fin Contacto */
+
+/* Inicio Header */
+
+footer{
+    background-color: #fdbf60;
+    padding: 1.5% 10%;
+    display: flex;
+    justify-content: space-between;
+    color: #644729;
+    font-size: 18px;
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+    width: 6%;
+}
+
+.icono-footer{
+    font-size: 40px;
+    color: #644729;
+    transition: 0.7s;
+}
+
+.icono-footer:hover{
+    color: #ff8911;
+}
+
+/* Fin Header */

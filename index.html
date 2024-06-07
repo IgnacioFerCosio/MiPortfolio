@@ -38,10 +38,8 @@
 
         <!-- Inicio de Servicios -->
         <section id="servicios" class="servicios">
-            <div>
-                <h4>SERVICIOS</h4>
-                <h1>Servicios Profesionales! Démosles una mirada</h1> 
-            </div>
+            <h4>SERVICIOS</h4>
+            <h1>Servicios Profesionales! Démosles una mirada</h1> 
             <div class="container-tarjetas">
                 <div class="tarjetas">
                     <img src="images/fondoVioleta.png" class="imagen-fondo2">
@@ -74,14 +72,16 @@
 
         <!-- Inicio de Sobre mi -->
         <section id="sobremi" class="sobremi">
-            <img src="images/yo1a1.jpg" alt="">
+            <img src="images/yo.png" alt="">
             <div class="sobre-container">
-                <h4>SOBRE MÍ</h4>
-                <h1>Estudiante de Sistemas y Programación</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam consectetur aliquid consequuntur odio, quas inventore modi ducimus numquam vitae optio tempora soluta. Ullam eum esse beatae nulla! Facilis, fuga reiciendis!</p>
+                <div>
+                    <h4>SOBRE MÍ</h4>
+                    <h1>Estudiante de Sistemas y Programación</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam consectetur aliquid consequuntur odio, quas inventore modi ducimus numquam vitae optio tempora soluta. Ullam eum esse beatae nulla! Facilis, fuga reiciendis!</p>  
+                </div>
                 <div class="div-iconos">
-                    <a href=""><i class="bi bi-github icono-color"></i></a> <!-- icono -->
-                    <a href=""><i class="bi bi-linkedin icono-color"></i></a> <!-- icono --> 
+                    <a href="https://github.com/IgnacioFerCosio" target="_blank"><i class="bi bi-github icono-color"></i></a> <!-- icono -->
+                    <a href="https://www.linkedin.com/in/ignacio-fern%C3%A1ndez-4048a41b3/" target="_blank"><i class="bi bi-linkedin icono-color"></i></a> <!-- icono --> 
                 </div>
                 <a href="" class="cv-button">Descargar CV</a>
             </div>
@@ -115,7 +115,12 @@
         <!-- Inicio de Educacion y Experiencia -->
         <section class="eduexp">
             <div class="eduexp-container">
-                <h4 class="naranja">Educación <hr></h4>
+                <h4 class="naranja">Educación </h4>
+                <div class="vertical-line background-naranja">
+                    <div class="circle background-naranja"></div>
+                    <div class="circle background-naranja"></div>
+                    <div class="circle background-naranja"></div>
+                </div>
                 <div class="div-fechas educacion centrado">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium consequatur, excepturi sapiente reprehenderit veniam non adipisci itaque ab beatae debitis iste ea dolores. Rem, soluta repellendus! Excepturi laudantium repudiandae at.</p>
                 </div>
@@ -128,7 +133,12 @@
             </div> 
             
             <div class="eduexp-container">
-                <h4 class="violeta">Experiencia <hr></h4>
+                <h4 class="violeta">Experiencia </h4>
+                <div class="vertical-line background-violeta">
+                    <div class="circle background-violeta"></div>
+                    <div class="circle background-violeta"></div>
+                    <div class="circle background-violeta"></div>
+                </div>
                 <div class="div-fechas experiencia centrado">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium consequatur, excepturi sapiente reprehenderit veniam non adipisci itaque ab beatae debitis iste ea dolores. Rem, soluta repellendus! Excepturi laudantium repudiandae at.</p>
                 </div>
@@ -211,14 +221,16 @@
         <!-- Fin de Habilidades -->
 
         <!-- Inicio de Contacto -->
-        <section id="contacto">
+        <section id="contacto" class="contacto">
             <h4>CONTACTO</h4>
             <H1>Tienes alguna consulta?</H1>
-            <form>
-                <input type="text" placeholder="Tu Nombre">
-                <input type="text" placeholder="Tu Mail">
-                <input type="text" placeholder="Descripcion">
-                <button>Enviar</button>
+            <form class="formulario">
+                <div>
+                    <input type="text" placeholder="Tu Nombre" class="input-chico">
+                    <input type="text" placeholder="Tu Mail" class="input-chico">
+                </div>
+                <textarea placeholder="Descripción"></textarea>
+                <a href="">Enviar</a>
             </form>
         </section>
         <!-- Fin de Contacto -->
@@ -226,6 +238,11 @@
     <!-- Inicio Footer -->
     <footer>
         <p>Diseñado y Desarrollado por Ignacio Fernandez</p>
+        <div>
+            <a href="https://github.com/IgnacioFerCosio" target="_blank"><i class="bi bi-github icono-footer"></i></a> <!-- icono -->
+            <a href="https://www.linkedin.com/in/ignacio-fern%C3%A1ndez-4048a41b3/" target="_blank"><i class="bi bi-linkedin icono-footer"></i></a>
+        </div>
+         <!-- icono --> 
     </footer>
     <!-- Fin Footer -->
 </body>
