@@ -189,9 +189,9 @@ h1{
 }
 
 .tarjetas h5{
-    padding-top: 36%;
+    padding-top: 22%;
     font-size: 22px;
-    margin-bottom: 0;
+    margin-bottom: 5%;
 }
 .container-tarjetas{
     padding-top: 30px;
@@ -211,6 +211,11 @@ h1{
 }
 .tarjetas:hover .invisible{
     opacity: 0;
+}
+
+.servicios p{
+    margin: 0px 40px;
+    line-height: 25px;
 }
 
 /* fin servicios */
@@ -315,7 +320,6 @@ h1{
 .centrado{
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .div-fechas{
@@ -324,6 +328,12 @@ h1{
     width: 680px;
     margin-bottom: 25px;
 }
+
+.eduexp p{
+    padding-left: 25px;
+    line-height: 22px;
+}
+
 .educacion{
     background-color: #ffecce;
 }
