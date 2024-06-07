@@ -377,3 +377,53 @@ header nav {
 }
 
 /* Fin Experiencia y Educacion*/
+
+/*Inicio Skills*/
+
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.skill{
+    display: flex;
+}
+
+.skill h6{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.skill p{
+    margin-top: 5px;
+}
+
+.habilidades img{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+
+.habilidades h4{
+    font-size: 20px;
+    color: #ff8911;
+    margin-bottom: 8px;
+}
+
+.habilidades h1{
+    font-size: 38px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+
+/*Fin Skills*/
