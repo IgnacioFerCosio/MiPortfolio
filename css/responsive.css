@@ -1,0 +1,258 @@
+@media(max-width:1440px) {
+    .tarjetas h5{
+        padding-top: 40%;
+        font-size: 22px;
+        margin-bottom: 5%;
+    };
+}
+
+@media(max-width:1024px) {
+    .container-tarjetas{
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 99%;
+    }
+    .sobremi img{
+        width: 420px;
+    }
+    .sobremi h1{
+        font-size: 30px;
+    }
+    .sobremi p{
+        font-size: 19px;
+    }
+    .sobremi{
+        padding-bottom: 40px;
+    }
+    .formulario{
+        width: 80%;
+    }
+    .skill-container{
+        flex-direction: column;
+    }
+    .verticalizar{
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        flex-direction: row;
+    }
+}
+
+@media(max-width:768px){
+    header .cv-button{
+        display: none;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .hero h1{
+        font-size: 40px;
+    }
+    .hero p{
+        font-size: 18px;
+    }
+
+    .container-tarjetas{
+        flex-direction: column;
+    }
+    .tarjetas{
+        width: 60%;
+        margin-bottom: 25px;
+    }
+    .sobremi img{
+        display: none;
+    }
+    .sobre-container{
+        width: 70%;
+        text-align: center;
+    }
+    .eduexp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .eduexp-container{
+        width: 70%;
+    }
+    .habilidades img{
+        width: 120px;
+        height: 120px;
+    }
+    .skill{
+        margin-top: 20px;
+    }
+}
+@media(max-width:480px){
+    header img, nav{
+        display: none;
+    }
+    header i{
+        display: flex;
+        padding: 20px 0px;
+    }
+    .misTrabajos-button, .contactame-button{
+        padding: 20px 8%;
+    }
+
+    .servicios h1{
+        text-align: center;
+    }
+    .tarjetas{
+        width: 90%;
+    }
+    .proyectos img{
+        width: 80%;
+    }
+    .proyectos-container{
+        width: 100%;
+    }
+    .eduexp-container{
+        width: 80%;
+    }
+    .habilidades img{
+        width: 80px;
+        height: 80px;
+    }
+    .formulario{
+        width: 90%;
+    }
+    
+    footer{
+        font-size: 12px;
+    }
+}
+@media(max-width:320px){
+    .hero img{
+        width: 180px;
+        height: 180px;
+        border-width: 6px;
+    }
+    .hero h1{
+        font-size: 38px;
+    }
+    .misTrabajos-button, .contactame-button{
+        padding: 15px 5%;
+    }
+    .hero-buttons{
+        justify-content:space-around;
+        flex-direction: column;
+        width: 50%;
+        height: 125px;
+    }
+    .hero{
+        padding-bottom: 30px;
+    }
+    .hero p{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h4{
+        font-size: 16px;
+    }
+    .tarjetas{
+        width: 85%;
+    }
+    .tarjetas h5{
+        font-size: 20px;
+    }
+    .tarjetas p{
+        font-size: 15px;
+    }
+    .imagen-fondo1{
+        translate: 0px -65%;
+    }
+    .imagen-fondo2{
+
+        translate: 0px -65%;
+    }
+    .tarjeta-imagen{
+        translate: 0px -100%;
+    }
+    .mundo{
+        translate: 0px -72%;
+    }
+    .sobremi p{
+        font-size: 15px;
+    }
+    .sobremi i{
+        font-size: 35px;
+    }
+    .div-iconos{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        padding-bottom: 35px;
+    }
+    .cv-button{
+        padding: 18px 9%;
+        font-size: 15px;
+    }
+    .proyectos h1{
+        text-align: center;
+    }
+    .proyectos img{
+        width: 90%;
+    }
+    .vertical-line{
+        display: none;
+    }
+    .eduexp-container{
+        width: 95%;
+    }
+    .eduexp h4{
+        font-size: 18px;
+        translate: 0;
+        text-align: center;
+    }
+    .eduexp p{
+        padding-left: 10px;
+        line-height: 22px;
+    }
+    .habilidades img{
+        width: 45px;
+        height: 45px;
+    }
+    .skill h6{
+        font-size: 14px;
+
+    }
+    .skill p{
+        font-size: 12px;
+    }
+    
+    .icono-footer{
+        font-size: 30px;
+    }
+
+
+    .nombre-mail{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 150px;
+    }
+    .input-chico{
+        width: 100%; 
+
+        margin-top: 8px;
+        padding: 16px 0px;
+    }
+    .formulario{
+        height: 470px;
+    }
+    textarea{
+        height: 48%;
+    }
+    input::placeholder{
+        top: 20px;
+        left: 30px;
+        font-size: 18px;
+    }
+}
