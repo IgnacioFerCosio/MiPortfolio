@@ -32,6 +32,9 @@
     .skill-container{
         flex-direction: column;
     }
+    .proyectos-cuadro{
+        text-align: center;
+    }
     .verticalizar{
         display: flex;
         justify-content: space-between;
@@ -97,9 +100,6 @@
         padding: 20px 8%;
     }
 
-    .servicios h1{
-        text-align: center;
-    }
     .tarjetas{
         width: 90%;
     }
@@ -131,7 +131,7 @@
         border-width: 6px;
     }
     .hero h1{
-        font-size: 38px;
+        font-size: 35px;
     }
     .misTrabajos-button, .contactame-button{
         padding: 15px 5%;
@@ -185,7 +185,7 @@
     .div-iconos{
         display: flex;
         justify-content: space-between;
-        width: 90%;
+        width: 100%;
         padding-bottom: 35px;
     }
     .cv-button{

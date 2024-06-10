@@ -1,6 +1,23 @@
-body {
-    font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    /* ver bien la fuente */
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+  
+body{
+    font-family: "Quicksand", sans-serif;
+}
+  
+h1{
+    font-family: "Archivo Black", sans-serif;
 }
 
 /* Inicio header */
@@ -124,6 +141,7 @@ header a {
     background-image: repeating-linear-gradient(59deg,rgba(255,255,255,0.3),transparent 2px,transparent,transparent 120px),
     repeating-linear-gradient(90deg,rgba(255,255,255,0.3),transparent 2px,transparent,transparent 140px);
 }
+
 /* fin hero */
 
 /* inicio servicios */
@@ -137,6 +155,7 @@ h1{
     font-size: 38px;
     margin-top: 0;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .servicios{
@@ -234,7 +253,9 @@ h1{
     background-size: cover;
     background-position: center;
 }
-
+.sobremi h1{
+    text-align: left;
+}
 
 .sobre-container{
     width: 35%;
@@ -292,12 +313,7 @@ h1{
     width: 80%;
     flex-wrap: wrap;
 }
-.proyectos-cuadro{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 .proyectos h5{
     margin-top: 12px;
     margin-bottom: 0px;
