@@ -1,6 +1,8 @@
-Notas del proyecto final del portfolio landing web page:
-Link del diseño replicado de behance: https://www.behance.net/gallery/193559089/Portfolio-Landing-Page-UI-Web-design-Development
-Link de la página subida en github: https://ignaciofercosio.github.io/MiPortfolio/
+Notas del proyecto final del portfolio landing web page
+Link del diseño replicado de behance
+https://www.behance.net/gallery/193559089/Portfolio-Landing-Page-UI-Web-design-Development
+Link de la página subida en github: 
+https://ignaciofercosio.github.io/MiPortfolio/
 
 Comentarios sobre el código:
 - El Header cuenta con una barra de navegación para poder ir directamente a las secciones de interés, cuenta con un botón de descargar cv que no tiene función todavía.
