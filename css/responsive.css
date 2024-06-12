@@ -64,6 +64,9 @@
         width: 60%;
         margin-bottom: 25px;
     }
+    .sobremi h1{
+        text-align: center;
+    }
     .sobremi img{
         display: none;
     }
@@ -89,6 +92,11 @@
     }
 }
 @media(max-width:480px){
+    .hero img{
+        width: 190px;
+        height: 190px;
+        border-width: 6px;
+    }
     header img, nav{
         display: none;
     }
@@ -102,7 +110,9 @@
 
     .tarjetas{
         width: 90%;
+        height: 390px;
     }
+
     .proyectos img{
         width: 80%;
     }
@@ -125,13 +135,16 @@
     }
 }
 @media(max-width:320px){
+    .hero{
+        padding-top: 110px;
+    }
     .hero img{
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
         border-width: 6px;
     }
     .hero h1{
-        font-size: 35px;
+        font-size: 30px;
     }
     .misTrabajos-button, .contactame-button{
         padding: 15px 5%;
@@ -147,6 +160,7 @@
     }
     .hero p{
         font-size: 15px;
+        width: 90%;
     }
     h1{
         font-size: 25px;
@@ -156,6 +170,7 @@
     }
     .tarjetas{
         width: 85%;
+        height: 380px;
     }
     .tarjetas h5{
         font-size: 20px;
@@ -176,6 +191,7 @@
     .mundo{
         translate: 0px -72%;
     }
+
     .sobremi p{
         font-size: 15px;
     }
@@ -202,7 +218,8 @@
         display: none;
     }
     .eduexp-container{
-        width: 95%;
+        width: 93%;
+        padding: 0;
     }
     .eduexp h4{
         font-size: 18px;
